@@ -1,3 +1,7 @@
+### *This forked version adds support for video slides (iframe)
+
+On lightbox init, the src of each slide is checked against an image file extension regex. If no match, url is loaded into a 16:9 iframe. Caveat here is your images need to have an extension in the url (sorry [placekitten.com](http://placekitten.com)). Intentionally minimal implementation. Check out: for demos.
+
 # slick-lightbox
 
 A lightbox wrapper for Ken's amazing slick carousel. Credits go to [kenwheeler](https://github.com/kenwheeler) for doing the [hard work](https://github.com/kenwheeler/slick).
