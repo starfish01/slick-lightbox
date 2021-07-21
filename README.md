@@ -1,3 +1,9 @@
+### *This is forked version of a forked version
+
+Its checking for two elements
+data-video =  url of the video
+data-external-video = if the video should be opened in iframe or video box
+
 ### *This forked version adds support for video slides (iframe)
 
 On lightbox init, the src of each slide is checked against an image file extension regex. If no match, url is loaded into a 16:9 iframe. Caveat here is your images need to have an extension in the url (sorry [placekitten.com](http://placekitten.com)). Intentionally minimal implementation.
